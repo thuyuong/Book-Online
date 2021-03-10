@@ -50,7 +50,7 @@ namespace BulkyBook.DataAccess.Initializer
                 UserName = "admin@gmail.com",
                 Email = "admin@gmail.com",
                 EmailConfirmed = true,
-                Name = "Bhrugen Patel"
+                Name = "Thủy Uông"
             },"Admin123*").GetAwaiter().GetResult() ;
 
             ApplicationUser user = _db.ApplicationUsers.Where(u => u.Email == "admin@gmail.com").FirstOrDefault();
